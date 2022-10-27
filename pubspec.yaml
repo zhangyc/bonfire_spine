@@ -1,7 +1,7 @@
 name: bonfire_spine
-description: A new Flutter project.
+description: spine runtime on bonfire
 version: 0.0.1
-homepage:
+homepage: https://github.com/zhangyc/bonfire_spine/blob/main/README.md
 
 environment:
   sdk: '>=2.18.2 <3.0.0'
