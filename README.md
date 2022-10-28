@@ -16,16 +16,16 @@ know whether this package might be useful for them.
 
 ## Features
 
-TODO: List what your package can do. Maybe include images, gifs, or videos.
+spine runtime on bonfire
+
 https://user-images.githubusercontent.com/10071342/198290315-27426d20-43cf-4445-9bb5-ef727e0d89b6.mp4
 ## Getting started
 
-TODO: List prerequisites and provide or point to information on how to
 start using the package.
 
 ## Usage
 
-TODO: Include short and useful examples for package users. Add longer examples
+Include short and useful examples for package users. Add longer examples
 to `/example` folder.
 
 ```dart
@@ -34,6 +34,5 @@ const like = 'sample';
 
 ## Additional information
 
-TODO: Tell users more about the package: where to find more information, how to
-contribute to the package, how to file issues, what response they can expect
-from the package authors, and more.
+https://github.com/jtakakura/spine_core
+https://github.com/jtakakura/spine_flutter
