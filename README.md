@@ -26,7 +26,7 @@ start using the package.
 
 Include short and useful examples for package users. Add longer examples
 to `/example` folder.
-<p>
+<html>
 class MyHomePage extends StatefulWidget {
   const MyHomePage({super.key, required this.title});
   final String title;
@@ -93,7 +93,7 @@ final Map<String, dynamic> data = json.decode(s);
 Future<SkeletonAnimation> loadSkeleton() async =>
 SkeletonAnimation.createWithFiles(name, pathBase: pathPrefix);  ///加载纹理
 }
-</p>
+</html>
 
 ```dart
 const like = 'sample';
@@ -101,5 +101,5 @@ const like = 'sample';
 
 ## Additional information
 
-https://github.com/jtakakura/spine_core
+https://github.com/jtakakura/spine_core<br>
 https://github.com/jtakakura/spine_flutter
