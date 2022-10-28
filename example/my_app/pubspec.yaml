@@ -66,22 +66,9 @@ flutter:
   #   - images/a_dot_ham.jpeg
   assets:
     - assets/images/
-    - assets/images/player/
-    - assets/images/enemy/
-    - assets/images/npc/
-    - assets/images/tile/
-    - assets/images/tile_random/
     - assets/images/tiled/
     - assets/images/tiled/top_down/
     - assets/images/tiled/tileset/
-    - assets/images/itens/
-    - assets/images/lpc/body/
-    - assets/images/lpc/feet/
-    - assets/images/lpc/hair/
-    - assets/images/lpc/leg/
-    - assets/images/lpc/torco/
-    - assets/images/lpc/head/
-    - assets/images/lpc/gloves/
     - assets/skeletons/spineboy/
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware
