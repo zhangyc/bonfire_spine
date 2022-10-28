@@ -26,7 +26,7 @@ start using the package.
 
 Include short and useful examples for package users. Add longer examples
 to `/example` folder.
-<html>
+```dart
 class MyHomePage extends StatefulWidget {
   const MyHomePage({super.key, required this.title});
   final String title;
@@ -75,27 +75,26 @@ late Set<String> animations;
 late SkeletonAnimation skeleton;
 Future<bool> load() async {
 animations = await loadAnimations();
-skeleton = await loadSkeleton(); ///加载骨骼动画
+skeleton = await loadSkeleton(); 
 
     return true;
 }
 
 Future<Set<String>> loadAnimations() async {
-final String skeletonFile = '$name.json'; ///加载json
-final String s = await rootBundle.loadString('$pathPrefix$name/$skeletonFile'); ///加载和解析为json格式
+final String skeletonFile = '$name.json'; 
+final String s = await rootBundle.loadString('$pathPrefix$name/$skeletonFile'); 
 final Map<String, dynamic> data = json.decode(s);
 
     return ((data['animations'] ?? <String, dynamic>{}) as Map<String, dynamic>)
         .keys
-        .toSet(); ///加载角色的所有动画，当前只有一个spine。
+        .toSet(); 
 }
 
 Future<SkeletonAnimation> loadSkeleton() async =>
-SkeletonAnimation.createWithFiles(name, pathBase: pathPrefix);  ///加载纹理
+SkeletonAnimation.createWithFiles(name, pathBase: pathPrefix); 
 }
-</html>
 
-```dart
+```
 const like = 'sample';
 ```
 
