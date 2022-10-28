@@ -23,7 +23,10 @@ https://user-images.githubusercontent.com/10071342/198290315-27426d20-43cf-4445-
 start using the package.
 
 ## Usage
-
+<p>
+dependencies:
+  bonfire_spine: ^0.0.1
+</p>
 Include short and useful examples for package users. Add longer examples
 to `/example` folder.
 ```dart
